@@ -1,0 +1,24 @@
+# Virtual environments
+venv/
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+dist/
+build/
+*.egg-info/
+
+# Scan output files
+export/
+mesh/
+*.ply
+*.obj
+*.stl

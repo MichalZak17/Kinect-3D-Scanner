@@ -1,0 +1,14 @@
+numpy
+opencv-python
+PyQt6
+httpx
+websocket-client
+open3d
+trimesh
+
+# freenect — not on PyPI, must be built from source:
+#   git clone https://github.com/OpenKinect/libfreenect
+#   cd libfreenect && mkdir build && cd build
+#   cmake .. -DBUILD_PYTHON3=ON -DCMAKE_INSTALL_PREFIX=/usr
+#   make && sudo make install
+#   cd ../wrappers/python && pip install .
